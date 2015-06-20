@@ -381,6 +381,20 @@ Full-Width Styles
   margin:0;
   positive:relative;
 }
+#nav ul li{
+  display:inline-block;
+}
+#nav ul li:hover{
+  background-color:#333;
+}
+#nav ul li a,visited{
+    color: #ccc;
+    display:block;
+    padding: 15px;
+}
+#nav ul li a:hover{
+  
+}
 
 
 /*******************************************************************************
