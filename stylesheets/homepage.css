@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+
+li, a, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+.navLinks{
+    list-style: none;
+}
+
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover{
+    color: red;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 3vw;
+    height: 2vw;
+    margin-left: 2vw;
+}
+
+.center{
+    text-align: center;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+#name{
+    font-size: 2.5vw;
+    color: white;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+#jobRole{
+    font-size: 1.5vw;
+    color: red;
+}
+
+#personalProjects{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    color: white;
+}
+
+.projectRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.projectColumn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13.5vw;
+}
+
+.projectColumn .projectNum{
+    text-align: center;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.projectColumn .projectDescription{
+    font-size: 1.2vw;
+    color: red;
+}
+
+.solid{
+    border-top: 1px solid #bbb;
+    margin-top: 4vw;
+}
+
+#history{
+    margin-left: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    color: white;
+}
+
+.historyColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.historyRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30vw;
+    margin-bottom: 2vw;
+}
+
+.historyRow .workplaceNum{
+    font-size: 1.2vw;
+    margin-right: 4.5vw;
+    width: 9vw;
+    color: red;
+}
+
+.historyRow .imgPlaceholder{
+    height: 10vw;
+    width: 18vw;
+}
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
