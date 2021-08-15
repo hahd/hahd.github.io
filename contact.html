@@ -5,6 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="styles/contact.css" rel="stylesheet" media="screen">
         <title>Contact</title>
+        
     </head>
 
     <body data-new-gr-c-s-check-loaded="14.1024.0" data-gr-ext-installed="">
@@ -35,17 +36,19 @@
             <p id="description">Send a message to reach out to me</p>
         </div>
         <div>
-            <form>
+            <form action="" method="POST">
                 <div class="columnForm">
-                    <input id="messageBox" placeholder="Message">
+                    <textarea class="messageBox" name="messageBox" placeholder="Message"></textarea>
                     <div class="rowForm">
-                        <input id="emailBox" placeholder="Email Address">
-                        <input id="nameBox" placeholder="Full Name">
-                        <button>Send</button>
+                        <input type="email" name="emailBox" class="emailBox" placeholder="Email Address">
+                        <input type="text" name="nameBox" class="nameBox" placeholder="Full Name">
+                        <button type="submit" class="send">Send</button>
                     </div>
+                    <div class="status"></div>
                 </div>
             </form>
         </div>
+        <script src="contact.js"></script>
     </body>
     <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 </html>

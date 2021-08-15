@@ -67,7 +67,7 @@ header{
     margin-left: 35vw;
 }
 
-#messageBox{
+.messageBox{
     height: 10vw;
     width: 30vw;
     background-color: white;
@@ -79,12 +79,12 @@ header{
     margin-top: 2vw;
 }
 
-#emailBox{
+.emailBox{
     width: 10vw;
     background-color: white;
 }
 
-#nameBox{
+.nameBox{
     width: 10vw;
     margin-left: 2vw;
     background-color: white;
@@ -98,4 +98,8 @@ button{
     cursor: pointer;
 }
 
+.status{
+    color: white;
+    font-size: 1.2vw;
+}
 
