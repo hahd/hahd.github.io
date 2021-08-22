@@ -82,4 +82,3 @@
  }
 
 window.onload=load();
-
